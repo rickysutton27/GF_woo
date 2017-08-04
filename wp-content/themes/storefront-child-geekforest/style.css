@@ -1,0 +1,111 @@
+/*
+Theme Name:   	Storefront Child Theme - Geek Forest
+Theme URI:    	https://github.com/stuartduff/storefront-child-theme
+Author:       	Stuart Duff
+Author URI:     http://stuartduff.com
+Template:     	storefront
+Description:  	This is a blank child theme for WooThemes StoreFront theme
+Version:      	1.0.0
+License:      	GNU General Public License v2 or later
+License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  	storefront
+Tags:         	black, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+Storefront is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+FontAwesome License: SIL Open Font License - http://scripts.sil.org/OFL
+Images License: GNU General Public License v2 or later
+*/
+/*
+ * Add your own custom css below this text.
+ */
+
+/*
+RICKY'S ADDITIONS
+*/
+/*
+.product_cat-afterschool-class .variations,
+.product_cat-afterschool-class .single_add_to_cart_button {
+  display: none;
+}
+*/
+
+a:hover,
+.widget-area .widget a:hover {
+  color: #056839;
+}
+.gf-variations-button-wrapper {
+  text-align: right;
+}
+.gf-button-variation {
+  display: block;
+  width: 100%;
+  margin-top: 0.66em;
+}
+.widget-area .widget a:not(.button) {
+    text-decoration: none;
+}
+.widget_nav_menu ul li:before {
+    content: "";
+}
+
+.gf_slideshow {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+}
+.gf_slide {
+  width: 100%;
+}
+.gf_slide img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+  .site-header {
+      border: 0;
+  }
+  #secondary {
+    position: absolute;
+    left: 0;
+  }
+  .woocommerce-active .site-branding {
+    float: none;
+    display: inline-block;
+    width: 9.7%;
+    padding: 0.2em;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .col-full {
+    max-width: 1400px;
+  }
+  .site-header {
+      padding-top: 0;
+  }
+  .storefront-primary-navigation {
+    //position: absolute;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .main-navigation ul.menu>li>a, .main-navigation ul.nav-menu>li>a {
+    padding: 0.2em 1em;
+  }
+
+  #content {
+    margin: 0 0 0 250px;
+  }
+  #main {
+    padding: 0;
+  }
+  .left-sidebar .content-area {
+    width: 100%;
+  }
+}
